@@ -9,7 +9,8 @@ WORKDIR /app
 COPY . .
 
 # Constrói o projeto
-RUN mvn clean install -DskipTests
+RUN mvn clean install 
+# -DskipTests
 
 # Etapa 2: Execução
 FROM openjdk:17-jdk-slim
