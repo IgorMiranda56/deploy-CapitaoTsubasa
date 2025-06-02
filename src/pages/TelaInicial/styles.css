@@ -1,0 +1,55 @@
+/* src\components\TelaInicial\style.css */
+
+body, html, #root{
+  background: url('../../assets/images/background2.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#root {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.tela-inicial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #F2D091;
+    font-family: Arial, sans-serif;
+  }
+  
+.tela-inicial p {
+  font-size: 1.2rem;
+  color: #666;
+} 
+  
+.tela-inicial .container .link-voltar{
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #6512b8;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+  
+.tela-inicial .container .link-voltar:hover {
+  background-color: #59268C;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+  
+ 
